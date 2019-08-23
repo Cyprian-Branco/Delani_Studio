@@ -31,9 +31,47 @@ h5{
 }
 .contact-us{
     background: url(images/c_image.jpg);
-    padding: 150px;
+    padding: 70px;
     text-align: center;
+}
+.col-md-4{
+    justify-content: center;
 }
 h6{
     color: white;
+    
+}
+::placeholder{
+    color: white;
+    background-color: transparent;
+}
+input[type=text],[type=email]{
+    width: 350px;
+    height: 30px;
+    margin-bottom: 20px;
+    border: solid white 1px;
+    color: white;
+    background-color: transparent !important;
+}
+textarea{
+    width: 600px;
+    border: solid white 1px;
+    background-color: transparent !important;
+    margin-bottom: 20px;
+    color: white;
+}
+button{
+    margin-bottom: 90px;
+    background-color: green;
+}
+.links{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+footer{
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
 }
