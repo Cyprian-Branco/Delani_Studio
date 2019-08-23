@@ -11,9 +11,14 @@
 }
 .text2{
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
 }
 .panel3{
     background: url(images/s_image.jpg);
     padding: 100px;
+}
+.text3{
+    text-align: center;
+    color: white;
+    font-size: 15px;
 }
