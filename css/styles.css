@@ -29,3 +29,11 @@ h4{
 h5{
     text-align: center;
 }
+.contact-us{
+    background: url(images/c_image.jpg);
+    padding: 150px;
+    text-align: center;
+}
+h6{
+    color: white;
+}
