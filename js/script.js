@@ -7,5 +7,8 @@ $(function(){
         $(".hide1").slideToggle(100)
         $(".show1").slideToggle(100)
     })
-    
+    $(".panel6").click(function(){
+        $(".hide2").slideToggle(100)
+        $(".show2").slideToggle(100)
+    })
 })
