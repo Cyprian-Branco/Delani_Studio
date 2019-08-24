@@ -12,3 +12,9 @@ $(function(){
         $(".show2").slideToggle(100)
     })
 })
+$(function(){
+    $(".icon-info").hide()
+    $(".icon-img").hover(function(){
+        $(this).find(".icon-info").toggle(500)
+    })
+})
