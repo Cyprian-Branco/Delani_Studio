@@ -62,7 +62,8 @@ textarea{
 }
 button{
     margin-bottom: 90px;
-    background-color: green;
+    justify-content: center;
+    
 }
 .links{
     display: flex;
@@ -87,11 +88,11 @@ footer{
     font-weight: bolder;
 }
 .portfolio{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 5%;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    padding-bottom: 40px;
 }
 .show0, .show1, .show2{
-    display: none;
+    display: none
 }
