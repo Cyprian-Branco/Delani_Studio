@@ -31,7 +31,7 @@ h5{
 }
 .contact-us{
     background: url(images/c_image.jpg);
-    padding: 70px;
+    padding: 50px;
     text-align: center;
 }
 .col-md-4{
@@ -74,4 +74,24 @@ footer{
     text-align: center;
     margin-bottom: 10px;
     display: flex;
+}
+.centered{
+    position: absolute;
+    background: white;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, 50%);
+    text-align: center;
+    opacity: 0.55;
+    font-weight: bolder;
+}
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+}
+.show0, .show1, .show2{
+    display: none;
 }
