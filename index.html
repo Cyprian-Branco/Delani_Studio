@@ -147,18 +147,16 @@
     <div class="container">
         <div class="contact-us" id="contact">
             <h6>CONTACT US</h6>
-            <div class="row">
-                <form class="form">
-                    <input type="text" placeholder="Name.." id="name" class="form-control">
-                    <input type="text" placeholder="Email.." id="email" class="form-control">
-                </form>
-            </div>
-            <div class="row">
-                <form class="form">
-                    <textarea id="message" cols="80" rows="10" placeholder="Type message here"></textarea>
+                <form method="POST" class="form" id="form">
+                    <div class="row">
+                        <input type="text" placeholder="Name.." id="name" class="form-control">
+                        <input type="text" placeholder="Email.." id="email" class="form-control">
+                    </div>
+                    <div class="row">
+                        <textarea id="message" cols="80" rows="10" placeholder="Type message here"></textarea>
+                    </div>
                     <button class="send" type="button">Send</button>
                 </form>
-            </div>
             <div id="result"></div>
         </div>
     </div>
