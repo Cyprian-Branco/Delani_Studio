@@ -33,9 +33,9 @@ $(function(){
     var message = document.getElementById("message").value
     $(".send").click(function(){
         if (!name || !email || !message){
-            document.getElementById("result").innerText = "Thank you for your message"
+           alert(name + ",Thank you for your message.")
         }else{
-            document.getElementById("result").innerText = "Please check your entries"
+            alert("Please check your entries")
         }
     })
 })
