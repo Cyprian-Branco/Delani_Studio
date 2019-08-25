@@ -1,5 +1,8 @@
+//onclick mouse-icon
 $(function(){
-
+    $(".mouse-icon").click(function(){
+        $(".panel2").show()
+    })
 })
 //for toggling 
 $(function(){
@@ -28,11 +31,11 @@ $(function(){
     var name = document.getElementById("name").value
     var email = document.getElementById("email").value
     var message = document.getElementById("message").value
-    $(".send").click(function(event){
+    $(".send").click(function(){
         if (!name || !email || !message){
-            document.getElementById("result").innerText = "Please check your entries"
-        }else{
             document.getElementById("result").innerText = "Thank you for your message"
+        }else{
+            document.getElementById("result").innerText = "Please check your entries"
         }
     })
 })
